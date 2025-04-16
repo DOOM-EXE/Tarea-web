@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel de Usuario | Mi Aplicación</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <div class="container">
+        <header class="app-header">
+            <h1>Mi Aplicación</h1>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#" class="active">Inicio</a></li>
+                    <li><a href="#">Perfil</a></li>
+                    <li><a href="#">Configuración</a></li>
+                    <li><a href="index.html">Cerrar sesión</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="dashboard">
+            <aside class="sidebar">
+                <div class="user-profile">
+                    <div class="avatar">JS</div>
+                    <h3>Juan Sánchez</h3>
+                    <p>juan@example.com</p>
+                </div>
+                
+                <nav class="side-nav">
+                    <ul>
+                        <li><a href="#" class="active">Resumen</a></li>
+                        <li><a href="#">Proyectos</a></li>
+                        <li><a href="#">Mensajes</a></li>
+                        <li><a href="#">Calendario</a></li>
+                        <li><a href="#">Documentos</a></li>
+                    </ul>
+                </nav>
+            </aside>
+            
+            <section class="content">
+                <h2>Resumen</h2>
+                
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <h3>Proyectos activos</h3>
+                        <p class="stat-value">5</p>
+                    </div>
+                    
+                    <div class="stat-card">
+                        <h3>Tareas pendientes</h3>
+                        <p class="stat-value">12</p>
+                    </div>
+                    
+                    <div class="stat-card">
+                        <h3>Mensajes</h3>
+                        <p class="stat-value">3</p>
+                    </div>
+                </div>
+                
+                <div class="recent-activity">
+                    <h3>Actividad reciente</h3>
+                    <ul class="activity-list">
+                        <li>
+                            <span class="activity-time">Hoy, 10:30 AM</span>
+                            <p>Completaste la tarea "Diseño de interfaz"</p>
+                        </li>
+                        <li>
+                            <span class="activity-time">Ayer, 4:15 PM</span>
+                            <p>Recibiste un mensaje de María Gómez</p>
+                        </li>
+                        <li>
+                            <span class="activity-time">Ayer, 9:00 AM</span>
+                            <p>Iniciaste el proyecto "Prototipo de aplicación"</p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>
